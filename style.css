@@ -1,5 +1,6 @@
 *{
     font-family: Arial;
+    margin:auto;
 }
 body{
     background-color: hsl(0,14%,58%);
@@ -7,7 +8,6 @@ body{
 main{
 width: 1140px;
 margin: auto;
-border: 1px solid black;
 height: 1120px;
 }
 
@@ -15,16 +15,19 @@ header{
     text-align: center;
     font-size: 40px;
     font-weight: 200;
-    border: 1px solid black;
     background-color: hsl(0,0%,91%);
-    padding: 0px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
+}
+header h1 {
+    font-weight: 120;
 }
 
 section {
     font-size: 25px;
     float: left;
-    border: 1px solid red;
-    width: 200px;
+    width: 350px;
+    height: 923px;
+    background-color: hsl(172,32%,54%);
 }
 section h2 {
     font-weight: bold;
@@ -34,3 +37,27 @@ section h2 {
     color: white;
 }
 
+li{
+    font-size: 30px;
+}
+
+.backgroundWhite{
+    text-align: left;
+    background-color: white;
+    width: 690px;
+    padding: 20px 45px 20px 55px;
+    height: 883px;
+}
+
+.p1, .p2{
+    font-size: 18px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+figcaption {
+    font-size: 13px;
+}
